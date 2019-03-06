@@ -6,7 +6,7 @@
 
     src/main:
       java:
-        labseven/Atm.java:
+        labfive/Atm.java:
           --single 5 --language Java
           --multi 2 --language Java
           --fragment "if" --count 2
@@ -17,7 +17,7 @@
           --fragment "deposit" --count 1
           --fragment "println(" --count 10
           --fragment "new Account(" --count 1
-        labseven/Account.java:
+        labfive/Account.java:
           --multi 5 --language Java
           --fragment "println(" --count 0
           --fragment "Account" --count 2
@@ -26,7 +26,7 @@
           --fragment "double getBalance(" --count 1
           --fragment "return" --count 1
           --fragment "if" --count 1
-        labseven/Offer.java:
+        labfive/Offer.java:
           --multi 5 --language Java
           --fragment "println(" --count 0
           --fragment "Offer" --count 2
