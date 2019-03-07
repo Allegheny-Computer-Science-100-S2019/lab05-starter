@@ -38,6 +38,6 @@
         writing/reflection.md:
           --paragraphs 3 --exact
           --words 150
-          --commits 1
+          --commits 5
 
           --command "gradle -q --console plain run" --executes
